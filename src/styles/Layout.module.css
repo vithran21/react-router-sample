@@ -1,0 +1,38 @@
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    flex: 1; /* Take up remaining space after navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  
